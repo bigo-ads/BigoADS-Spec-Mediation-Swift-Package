@@ -6,8 +6,8 @@ BigoADS_spec.
 ## Requirements
 
 - iOS 13.0 or later
-- BigoADS 6.1.0
-- Xcode 14.0 or later
+- BigoADS 6.2.0
+- Xcode 15.0 or later
 
 ## Installation
 
@@ -29,7 +29,7 @@ Select only the adapter product required by the app:
 The products are independent. Selecting one product does not link the other
 adapter products into the application.
 
-Each product has an exact dependency on BigoADS_spec 6.1.0 from
+Each product has an exact dependency on BigoADS_spec 6.2.0 from
 `https://github.com/bigo-ads/BigoADS-Spec-Swift-Package.git`.
 
 For standard BigoADS, use
@@ -44,5 +44,5 @@ adapter Objective-C categories and classes are retained by the static linker.
 
 ## Version mapping
 
-Package version `6.1.0` contains BigoADS adapter version `6.1.0.0` and keeps
+Package version `6.2.0` contains BigoADS adapter version `6.2.0.0` and keeps
 the mediation SDK versions listed above fixed.

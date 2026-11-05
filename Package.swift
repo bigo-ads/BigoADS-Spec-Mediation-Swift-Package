@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/bigo-ads/BigoADS-Spec-Swift-Package.git",
-            exact: "6.1.0"
+            exact: "6.2.0"
         ),
     ],
     targets: [
@@ -50,23 +50,23 @@ let package = Package(
         ),
         .binaryTarget(
             name: "bigo_ads_admob_adapter",
-            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo_ads_admob_adapter_6.1.0.0_50.zip",
-            checksum: "d6a3e14130312c0dd8e716e45225877c027baa5393041a11215a5e06474b0aff"
+            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo_ads_admob_adapter_spec_6.2.0.0_53.zip",
+            checksum: "1944e49c7a5497719d3742adb7fe484e8a7738718cda77a582c81a52c47652b5"
         ),
         .binaryTarget(
             name: "bigo_ads_ironsource_adapter",
-            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo-ads-ironsource-adapter_6.1.0.0_49.zip",
-            checksum: "ac2f067059463b73ae46214becb67bbdcaefc1ff89c1677a54a06ece57e2eda7"
+            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo-ads-ironsource-adapter_spec_6.2.0.0_53.zip",
+            checksum: "ca50328805fbe6e10313561a1e2760298436212e4a7b015dc5d51bd0ef68e5b7"
         ),
         .binaryTarget(
             name: "bigo_ads_max_adapter",
-            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo_ads_max_adapter_6.1.0.0_52.zip",
-            checksum: "033f036b1ece23b3f88ea5ea8272053a4e83a66e8e44cb20eb97202feef7104a"
+            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo_ads_max_adapter_spec_6.2.0.0_53.zip",
+            checksum: "78d8c1cda48799438e6f2bf5aaad2b324c54b3774b72ebb0dc8301604ec0a645"
         ),
         .binaryTarget(
             name: "bigo_ads_new_max_adapter",
-            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo_ads_new_max_adapter_6.1.0.0_49.zip",
-            checksum: "2c4864cc1d1b3a024b7c805346f92e8b6e913e74f27a6b1cb1f897ea6380771c"
+            url: "https://static-fed-oss.adsbigo.com/bigoads-framework/bigo_ads_new_max_adapter_spec_6.2.0.0_53.zip",
+            checksum: "66f485f6b03e80daeafda76cc2814e815a31b46301bff568115bb56730da42a2"
         ),
     ]
 )
